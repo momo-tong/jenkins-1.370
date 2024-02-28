@@ -15,5 +15,5 @@
     <dependencies>
     <dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>remoting</artifactId><version>1.370</version></dependency><dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>hudson-core</artifactId><version>1.370</version></dependency><dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>maven-plugin</artifactId><version>1.370</version></dependency><dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>maven-agent</artifactId><version>1.370</version></dependency><dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>maven-interceptor</artifactId><version>1.370</version></dependency><dependency><groupId>org.jvnet.hudson.main</groupId><artifactId>cli</artifactId><version>1.370</version></dependency></dependencies>
 
-</project>
+<repositories><repository><id>jenkins-releases</id><name>Jenkins Release</name><url>http://repo.jenkins-ci.org/releases</url></repository></repositories></project>
 <!-- Added to trigger github security checks -->
